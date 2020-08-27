@@ -3,7 +3,7 @@ const axios = require('axios')
 
 const app = express()
 
-const CMAX_DATA_URL = "http://pogodynka.pl/api/radars/v1/list/sri"
+const CMAX_DATA_URL = "https://meteo.imgw.pl/api/radars/v1/list/sri"
 const URL_PREFIX = "api"
 
 app.get(`/${URL_PREFIX}/sri`, async (req, res) => {
